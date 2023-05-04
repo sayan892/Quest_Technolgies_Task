@@ -39,7 +39,6 @@ const ProductList = () => {
   };
     React.useEffect(() => {
         fetchProducts();
-        console.log(fetchedData);
     }, [edit]);
     const handleEdit = (data) => {
         setEdit(true);
